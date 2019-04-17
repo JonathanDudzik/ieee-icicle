@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Setting NCDHHS color scheme
+$white: #fff;
+$dark-white: #ddd; 
+$black: #000;
+$light-black: hsl(0, 0%, 15%);
+$dark-blue: #092940;
+$light-blue: #337AB7;
+$headings-color: #1a5f9a;
+
+// Bulma customized variables
+$title-color: $headings-color;
+$subtitle-color: $headings-color;
+$menu-item-color: $headings-color;
+$menu-item-active-background-color: $light-blue;
+$menu-label-color: $light-blue;
+$navbar-height: 6rem;
+$navbar-item-img-max-height: 5rem;
+$navbar-background-color: $dark-blue;
+
+.navbar {
+    &.my-style {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20%;
+        // border-right: .1rem solid ($dark-white);
+    }
+}
+
+.menu {
+    &.my-style {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20%;
+        height: 100vh;
+        margin-top: 6rem;
+        padding: 1rem;
+        overflow: auto;
+        border-right: .1rem solid ($dark-white);
+    }
+}
+
+.hero {
+    background-image: url("../media/bg_poly-accent-blue.jpg");
+}
+
+.sections-container {
+    position: relative;
+    width: 80%;
+    left: 20%;
+}
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
