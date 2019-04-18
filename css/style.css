@@ -2,8 +2,7 @@
 .navbar.my-style {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 20%; }
+  left: 0; }
 
 .menu.my-style {
   position: fixed;
@@ -4234,7 +4233,7 @@ a.list-item {
 
 .navbar {
   background-color: #092940;
-  min-height: 6rem;
+  min-height: 5rem;
   position: relative;
   z-index: 30; }
   .navbar.is-white {
@@ -4640,7 +4639,7 @@ a.list-item {
   .navbar > .container {
     align-items: stretch;
     display: flex;
-    min-height: 6rem;
+    min-height: 5rem;
     width: 100%; }
   .navbar.has-shadow {
     box-shadow: 0 2px 0 0 whitesmoke; }
@@ -4658,18 +4657,18 @@ a.list-item {
 
 html.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
-  padding-top: 6rem; }
+  padding-top: 5rem; }
 
 html.has-navbar-fixed-bottom,
 body.has-navbar-fixed-bottom {
-  padding-bottom: 6rem; }
+  padding-bottom: 5rem; }
 
 .navbar-brand,
 .navbar-tabs {
   align-items: stretch;
   display: flex;
   flex-shrink: 0;
-  min-height: 6rem; }
+  min-height: 5rem; }
 
 .navbar-brand a.navbar-item:hover {
   background-color: transparent; }
@@ -4684,9 +4683,9 @@ body.has-navbar-fixed-bottom {
   color: #4a4a4a;
   cursor: pointer;
   display: block;
-  height: 6rem;
+  height: 5rem;
   position: relative;
-  width: 6rem;
+  width: 5rem;
   margin-left: auto; }
   .navbar-burger span {
     background-color: currentColor;
@@ -4751,7 +4750,7 @@ a.navbar-item,
     flex-shrink: 1; }
   .navbar-item.is-tab {
     border-bottom: 1px solid transparent;
-    min-height: 6rem;
+    min-height: 5rem;
     padding-bottom: calc(0.5rem - 1px); }
     .navbar-item.is-tab:hover {
       background-color: transparent;
@@ -4818,14 +4817,14 @@ a.navbar-item,
     top: 0; }
   .navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
     -webkit-overflow-scrolling: touch;
-    max-height: calc(100vh - 6rem);
+    max-height: calc(100vh - 5rem);
     overflow: auto; }
   html.has-navbar-fixed-top-touch,
   body.has-navbar-fixed-top-touch {
-    padding-top: 6rem; }
+    padding-top: 5rem; }
   html.has-navbar-fixed-bottom-touch,
   body.has-navbar-fixed-bottom-touch {
-    padding-bottom: 6rem; } }
+    padding-bottom: 5rem; } }
 
 @media screen and (min-width: 1088px) {
   .navbar,
@@ -4835,7 +4834,7 @@ a.navbar-item,
     align-items: stretch;
     display: flex; }
   .navbar {
-    min-height: 6rem; }
+    min-height: 5rem; }
     .navbar.is-spaced {
       padding: 1rem 2rem; }
       .navbar.is-spaced .navbar-start,
@@ -4949,16 +4948,16 @@ a.navbar-item,
     top: 0; }
   html.has-navbar-fixed-top-desktop,
   body.has-navbar-fixed-top-desktop {
-    padding-top: 6rem; }
+    padding-top: 5rem; }
   html.has-navbar-fixed-bottom-desktop,
   body.has-navbar-fixed-bottom-desktop {
-    padding-bottom: 6rem; }
+    padding-bottom: 5rem; }
   html.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
-    padding-top: 8rem; }
+    padding-top: 7rem; }
   html.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
-    padding-bottom: 8rem; }
+    padding-bottom: 7rem; }
   a.navbar-item.is-active,
   .navbar-link.is-active {
     color: #000; }
@@ -4969,7 +4968,7 @@ a.navbar-item,
     background-color: #fafafa; } }
 
 .hero.is-fullheight-with-navbar {
-  min-height: calc(100vh - 6rem); }
+  min-height: calc(100vh - 5rem); }
 
 .pagination {
   font-size: 1rem;
