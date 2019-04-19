@@ -6,7 +6,19 @@
   "scripts": {
     "watch:sass": "node-sass sass/mystyles.scss css/style.css -w",
     "devserver": "live-server",
-    "start": "npm-run-all -p devserver watch:sass"
+    "start": "npm-run-all -p devserver watch:sass",
+    "copy-index": "cp index.html build",
+    "copy-media": "cp -r media build",
+    "copy-css": "cp -r css build",
+    "copy:files": "npm-run-all copy-index copy-media copy-css",
+    "compile-main:js": "npx babel scripts/main.js --out-file build/scripts/main.js --presets=@babel/preset-env",
+    "compile:js": "npm-run-all compile-main:js",
+    "compile:sass": "node-sass sass/mystyles.scss css/style.comp.css",
+    "concat:css": "concat -o css/style.concat.css css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.concat.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css build/css/style.css --output-style compressed",
+    "build": "npm-run-all copy:files compile:js compile:sass concat:css prefix:css compress:css"
+
   },
   "repository": {
     "type": "git",
