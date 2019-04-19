@@ -8,14 +8,15 @@
   margin-top: 5rem;
   padding: 1rem;
   overflow: auto;
-  border-right: 0.1rem solid #ddd; }
+  border-left: 0.1rem solid #ddd;
+  background-color: #216081; }
 
 .hero {
-  background-image: url("../media/bg_poly-accent-blue.jpg"); }
+  background-image: url("../media/mission2.jpg"); }
 
 .sections-container {
   position: relative;
-  width: 80%; }
+  width: 82%; }
 
 @keyframes spinAround {
   from {
@@ -3582,7 +3583,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #1a5f9a;
+  color: #216081;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -3609,7 +3610,7 @@ a.tag:hover {
     font-size: 0.75rem; }
 
 .subtitle {
-  color: #1a5f9a;
+  color: #b7a234;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25; }
@@ -3992,14 +3993,14 @@ a.list-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 2px;
-    color: #1a5f9a;
+    color: #fff;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
       background-color: whitesmoke;
       color: #363636; }
     .menu-list a.is-active {
-      background-color: #337AB7;
+      background-color: rgba(0, 0, 0, 0.3);
       color: #fff; }
   .menu-list li ul {
     border-left: 1px solid #dbdbdb;
@@ -4007,7 +4008,7 @@ a.list-item {
     padding-left: 0.75em; }
 
 .menu-label {
-  color: #337AB7;
+  color: #fff;
   font-size: 0.75em;
   letter-spacing: 0.1em;
   text-transform: uppercase; }
@@ -4226,7 +4227,7 @@ a.list-item {
   padding: 20px; }
 
 .navbar {
-  background-color: #092940;
+  background-color: #fff;
   min-height: 5rem;
   position: relative;
   z-index: 30; }
@@ -4793,7 +4794,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    background-color: #092940;
+    background-color: #fff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
