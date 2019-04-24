@@ -12,38 +12,36 @@ $light-blue: #397aac;
 $dark-grey: #5f6c7b;
 $light-grey: #ecf0f3;
 
-// Bulma customized variables
-$title-color: $black;
-$subtitle-color: $black;
-$menu-item-color: $light-black;
-$menu-item-active-background-color: rgba(0,0,0,.3);
+// Bulma menu variables
 $menu-label-color: $light-black;
+$menu-item-color: $light-black;
+$menu-item-active-background-color: $dark-grey;
+$menu-item-hover-color: $white;
+$menu-item-hover-background-color: $light-blue;
+
+// Bulma navbar variables
 $navbar-height: 5rem;
 $navbar-item-img-max-height: 5rem;
 $navbar-background-color: $dark-blue;
+$navbar-item-hover-background-color: $dark-grey;
 
-.menu {
-    &.my-style {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 18%;
-        height: 100vh;
-        margin-top: 5rem;
-        padding: 1rem;
-        overflow: auto;
-        background-color: $light-grey;
-    }
-}
+// .menu {
+//     &.my-style {
+//         position: fixed;
+//         top: 0;
+//         right: 0;
+//         width: 18%;
+//         height: 100vh;
+//         margin-top: 5rem;
+//         padding: 1rem;
+//         overflow: auto;
+//         border-left: 2px solid $dark-grey;
+//         background-color: $light-grey;
+//     }
+// }
 
 .hero {
     background-image: url("../media/bg_poly-accent-blue.jpg");
-}
-
-.sections-container {
-    position: relative;
-    // to avoid overlap with the side nav menu.
-    width: 82%;
 }
 
 // Import only what you need from Bulma

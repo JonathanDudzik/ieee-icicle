@@ -1,21 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-.menu.my-style {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 18%;
-  height: 100vh;
-  margin-top: 5rem;
-  padding: 1rem;
-  overflow: auto;
-  background-color: #ecf0f3; }
-
 .hero {
   background-image: url("../media/bg_poly-accent-blue.jpg"); }
-
-.sections-container {
-  position: relative;
-  width: 82%; }
 
 @keyframes spinAround {
   from {
@@ -3582,7 +3567,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #000;
+  color: #363636;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -3609,7 +3594,7 @@ a.tag:hover {
     font-size: 0.75rem; }
 
 .subtitle {
-  color: #000;
+  color: #4a4a4a;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25; }
@@ -3996,10 +3981,10 @@ a.list-item {
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
-      background-color: whitesmoke;
-      color: #363636; }
+      background-color: #397aac;
+      color: #fff; }
     .menu-list a.is-active {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: #5f6c7b;
       color: #fff; }
   .menu-list li ul {
     border-left: 1px solid #dbdbdb;
@@ -4728,7 +4713,7 @@ a.navbar-item,
   a.navbar-item:hover, a.navbar-item.is-active,
   .navbar-link:hover,
   .navbar-link.is-active {
-    background-color: #fafafa;
+    background-color: #5f6c7b;
     color: #3273dc; }
 
 .navbar-item {
@@ -4959,7 +4944,7 @@ a.navbar-item,
   .navbar-link.is-active:not(:hover) {
     background-color: transparent; }
   .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #fafafa; } }
+    background-color: #5f6c7b; } }
 
 .hero.is-fullheight-with-navbar {
   min-height: calc(100vh - 5rem); }
