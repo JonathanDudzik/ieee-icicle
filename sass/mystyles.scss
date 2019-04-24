@@ -5,23 +5,22 @@
 
 // Setting NCDHHS color scheme
 $white: #fff;
-$dark-white: #ddd; 
 $black: #000;
 $light-black: hsl(0, 0%, 15%);
 $dark-blue: #092940;
-$light-blue: #216081;
-$headings-color: #1a5f9a;
+$light-blue: #397aac;
+$dark-grey: #5f6c7b;
+$light-grey: #ecf0f3;
 
 // Bulma customized variables
-$title-color: #216081;
-$subtitle-color: #b7a234;
-$menu-item-color: $white;
+$title-color: $black;
+$subtitle-color: $black;
+$menu-item-color: $light-black;
 $menu-item-active-background-color: rgba(0,0,0,.3);
-$menu-label-color: $white;
+$menu-label-color: $light-black;
 $navbar-height: 5rem;
 $navbar-item-img-max-height: 5rem;
-$navbar-background-color: $white;
-// $navbar-box-shadow-size: 10px 10px 10px 10px;
+$navbar-background-color: $dark-blue;
 
 .menu {
     &.my-style {
@@ -33,13 +32,12 @@ $navbar-background-color: $white;
         margin-top: 5rem;
         padding: 1rem;
         overflow: auto;
-        border-left: .1rem solid ($dark-white);
-        background-color: $light-blue;
+        background-color: $light-grey;
     }
 }
 
 .hero {
-    background-image: url("../media/mission2.jpg");
+    background-image: url("../media/bg_poly-accent-blue.jpg");
 }
 
 .sections-container {

@@ -8,11 +8,10 @@
   margin-top: 5rem;
   padding: 1rem;
   overflow: auto;
-  border-left: 0.1rem solid #ddd;
-  background-color: #216081; }
+  background-color: #ecf0f3; }
 
 .hero {
-  background-image: url("../media/mission2.jpg"); }
+  background-image: url("../media/bg_poly-accent-blue.jpg"); }
 
 .sections-container {
   position: relative;
@@ -3583,7 +3582,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #216081;
+  color: #000;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -3610,7 +3609,7 @@ a.tag:hover {
     font-size: 0.75rem; }
 
 .subtitle {
-  color: #b7a234;
+  color: #000;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25; }
@@ -3993,7 +3992,7 @@ a.list-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 2px;
-    color: #fff;
+    color: #262626;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
@@ -4008,7 +4007,7 @@ a.list-item {
     padding-left: 0.75em; }
 
 .menu-label {
-  color: #fff;
+  color: #262626;
   font-size: 0.75em;
   letter-spacing: 0.1em;
   text-transform: uppercase; }
@@ -4227,7 +4226,7 @@ a.list-item {
   padding: 20px; }
 
 .navbar {
-  background-color: #fff;
+  background-color: #092940;
   min-height: 5rem;
   position: relative;
   z-index: 30; }
@@ -4794,7 +4793,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    background-color: #fff;
+    background-color: #092940;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
