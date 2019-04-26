@@ -20,8 +20,13 @@
                 <a class="navbar-item" href="./cert.html" target="_blank">
                     <img src="./media/IEEE-ICICLE-LOGO.png" width="276.5" height="70">
                 </a>
+                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <div class="navbar-menu is-active">
+            <div class="navbar-menu" id="navMenu">
                 <div class="navbar-start">
                     <a class="navbar-item" href="https://bulma.io/">
                         Home
@@ -94,39 +99,75 @@
             </div>
         </section>
 
-                <section class="section" id="policy">
-                    <h2 class="title is-2">
-                        Assistance
-                    </h2>
-                    <p>
-                        Here are some useful contacts:
-                    </p>
-                    <br>
-                    <ul>
-                        <li>1. <strong>Contact Name:</strong> 919-234-1234</li>
-                        <li>2. <strong>Contact Name:</strong> 919-234-1234</li>
-                        <li>3. <strong>Contact Name:</strong> 919-234-1234</li>
-                    </ul>
-                    <br>
-                    <h2 class="title is-2">
-                        Lost and Found
-                    </h2>
-                    <p class="is-size-5">
-                        Have you lost something? Head over to the lost and found at the front desk to see if your missing item has turned up there.
-                    </p>
-                    <br>
-                    <h2 class="title is-2">
-                        Keep networking after the conference
-                    </h2>
-                    <p class="is-size-5">
-                        Check out the Hotel resturant after the conference to continue the conversation and networking!
-                    </p>
-                
-                </section>
-        </div>
+        <section class="accordions">
+            <article class="accordion">
+                <div class="accordion-header">
+                    <p>Hello World</p>
+                    <button class="toggle" aria-label="toggle"></button>
+                </div>
+                <div class="accordion-body">
+                    <div class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                    </div>
+                </div>
+            </article>
+            <article class="accordion">
+                <div class="accordion-header">
+                    <p>Hello World</p>
+                    <button class="toggle" aria-label="toggle"></button>
+                </div>
+                <div class="accordion-body">
+                    <div class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                    </div>
+                </div>
+            </article>
+            <article class="accordion">
+                <div class="accordion-header">
+                    <p>Hello World</p>
+                    <button class="toggle" aria-label="toggle"></button>
+                </div>
+                <div class="accordion-body">
+                    <div class="accordion-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section" id="policy">
+            <h2 class="title is-2">
+                Assistance
+            </h2>
+            <p>
+                Here are some useful contacts:
+            </p>
+            <br>
+            <ul>
+                <li>1. <strong>Contact Name:</strong> 919-234-1234</li>
+                <li>2. <strong>Contact Name:</strong> 919-234-1234</li>
+                <li>3. <strong>Contact Name:</strong> 919-234-1234</li>
+            </ul>
+            <br>
+            <h2 class="title is-2">
+                Lost and Found
+            </h2>
+            <p class="is-size-5">
+                Have you lost something? Head over to the lost and found at the front desk to see if your missing item has turned up there.
+            </p>
+            <br>
+            <h2 class="title is-2">
+                Keep networking after the conference
+            </h2>
+            <p class="is-size-5">
+                Check out the Hotel resturant after the conference to continue the conversation and networking!
+            </p>
+        
+        </section>
 
         <!-- <script src="/scripts/vue.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <script src="/scripts/bulma-accordion.js"></script>
         <script src="/scripts/main.js"></script>
     </body>
 </html>    
