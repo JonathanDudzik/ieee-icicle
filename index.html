@@ -14,10 +14,18 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <!-- 
+        ********************************************************************
+
+
+            TOP NAVIGATION BAR
+
+
+        ********************************************************************
+         -->
         <nav class="navbar" role="top navigation">
             <div class="navbar-brand">
-                <a class="navbar-item" href="./cert.html" target="_blank">
+                <a class="navbar-item is-paddingless" href="https://www.ieeeicicle.org/2019-conference" target="_blank">
                     <img src="./media/IEEE-ICICLE-LOGO.png" width="276.5" height="70">
                 </a>
                 <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -28,146 +36,687 @@
             </div>
             <div class="navbar-menu" id="navMenu">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="https://bulma.io/">
+                    <a class="navbar-item" data-navbar-link='Home'>
                         Home
                     </a>
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
+                        <a class="navbar-item">
                             Agenda
                         </a>
                         <div class="navbar-dropdown">
-                            <a class="navbar-item">
+                            <a class="navbar-item" data-navbar-link="monday">
                                 Monday
                             </a>
                         
-                            <a class="navbar-item">
+                            <a class="navbar-item" data-navbar-link="tuesday">
                                 Tuesday
                             </a>
                             
-                            <a class="navbar-item">
+                            <a class="navbar-item" data-navbar-link="wenesday">
                                 Wenesday
                             </a>
-                            <a class="navbar-item">
+                            <a class="navbar-item" data-navbar-link="thursday">
                                 Thursday
                             </a>
                         </div>
                     </div>
-                    <a class="navbar-item" href="https://bulma.io/">
-                        Speakers
-                    </a>
-                    <a class="navbar-item" href="https://bulma.io/">
-                        Sponsors
-                    </a>
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
+                        <a class="navbar-item">
                             Maps
                         </a>
                         <div class="navbar-dropdown">
-                            <a class="navbar-item">
-                                Hotel to GMU
+                            <a class="navbar-item" data-navbar-link='founders-hall'>
+                                Founders Hall at GMU
                             </a>
-                        
-                            <a class="navbar-item">
-                                GMU to AED
-                            </a>
-                            
-                            <a class="navbar-item">
-                                Founders Hall Map
+                            <a class="navbar-item" data-navbar-link='hilton-area'>
+                                Hilton Area Map
                             </a>
                         </div>
                     </div>
-                    <a class="navbar-item" href="#">
-                        Survey
-                    </a>
                 </div>
                 <div class="navbar-end is-flex">
-                    
+                    <div class="navbar-item">
+                        <figure>
+                            <a class="image is-64x64" href="https://www.qi-partners.com" target="_blank">
+                                <img src="./media/sponsor-qip.png" alt="Sponsor QIP" title="This page brought to you by Quality Information Partners">
+                            </a>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </nav>
+        <!-- 
+        ********************************************************************
 
-        <section class="hero is-medium is-bold">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title is-1 has-text-white">
-                        2019 IEEE ICICLE
-                    </h1>
-                    <h2 class="subtitle is-2 has-text-white">
-                        Conference Portal
-                    </h2>
+
+            HOME SECTION
+
+
+        ********************************************************************
+         -->
+        <section data-section='Home'>
+            <div class="hero is-medium is-bold">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-1 has-text-white">2019 IEEE ICICLE</h1>
+                        <h2 class="subtitle is-2 has-text-white">Conference Portal</h2>
+                    </div>
+                </div>
+            </div>
+            <section class="section">
+                <h3 class="has-text-weight-bold">
+                    Use the menu at the top of this page to see the agenda and useful maps.
+                </h3>
+            </section>
+        </section>
+        <!-- 
+        ********************************************************************
+
+
+           MONDAY AGENDA SECTION
+
+
+        ********************************************************************
+         -->
+        <section class="section is-display-none" data-section='monday'>
+            <div class="container">
+                <div class="notification has-text-centered" style="margin-bottom: 4rem;">
+                    <h1 class="title">Monday</h1>
+                    <h2 class="subtitle">Pre-conference Workshops</h2>
+                    <div class="is-divider"></div>
+                    <h2 class="subtitle is-margin-top-med"">1:00 - 3:00</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Standards Track</p>
+                                    <p>Founders Hall 120</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Understanding the Learning Technologies Standards Landscape</h3>
+                                    <p>Mapping learning technology data standards to categories: uses and gaps.</p>
+                                    <!-- <br>
+                                    <div class="box">
+                                        <h3 class="has-text-weight-bold">Speaker</h3>
+                                        <br>
+                                        <article class="media">
+                                            <figure class="media-left">
+                                                <p class="image is-64x64">
+                                                    <img src="./media/blank-profile-picture-640.png">
+                                                </p>
+                                            </figure>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <p>
+                                                        <strong>John Snow</strong> <br> <span class="icon is-small"><i class="fab fa-twitter"></i></span> <span class="icon is-small"><i class="fab fa-linkedin-in"></i></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Learning Tech Track</p>
+                                    <p>Founders Hall 121</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Developing Adaptive and AI Supported Learning Systems</h3>
+                                    <p>Experts with experience developing adaptive and AI supported learning systems will share their insights in a series of technical presentations. The session will conclude with a moderated panel and audience discussion about the role of the learning engineer in developing adaptive and AI supported learning systems.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Learning Design Practices and Technologies Track</p>
+                                    <p>Founders Hall 113</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Providing a Helping Hand - Sharing research & best practices on supporting faculty as a Learning Engineer</h3>
+                                    <p>This workshop will facilitate discussion, reflection and practice around establishing an environment where faculty support teams can work most effectively, with a focus on the perspective of the learning engineer. </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med"">3:00 - 3:30</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header" style="border-radius: 4px;">
+                                <div class="has-text-left">
+                                    <p>Coffee Break</p>
+                                    <p>Founders Hall</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med"">3:30 - 5:30</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Standards Track</p>
+                                    <p>Founders Hall 120</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">xAPI education with certification</h3>
+                                    <p>This workshop will assist participants in creating learning materials to jump-start their ability to enable learning engineers to create products and systems that use xAPI.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Learning Design Practices and Technologies Track</p>
+                                    <p>Founders Hall 113</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">From awesome to operational: learning engineering challenges in the integration of emerging technologies</h3>
+                                    <p>Participants will become acquainted with early efforts to utilize several new technologies in support of learning, will imagine new applications and identify challenges, and will develop agendas for advancing accessibility of new technologies to the practice of learning engineering.  
+                                </div>
+                            </div>
+                            <h2 class="subtitle is-margin-top-med">5:30 - 6:30</h2>
+                                <div class="accordions">
+                                    <article class="accordion">
+                                        <div class="accordion-header" style="border-radius: 4px;">
+                                            <div class="has-text-left">
+                                                <p>Reception</p>
+                                                <p>Founders Hall</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 
+        ********************************************************************
+
+
+           TUESDAY AGENDA SECTION
+
+
+        ********************************************************************
+         -->
+         <section class="section is-display-none" data-section='tuesday'>
+            <div class="container">
+                <div class="notification has-text-centered" style="margin-bottom: 4rem;">
+                    <h1 class="title">Tuesday</h1>
+                    <h2 class="subtitle">Competencies of Learning Engineering</h2>
+                    <div class="is-divider"></div>
+                    <h2 class="subtitle is-margin-top-med"">7:30 - 8:20</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header" style="border-radius: 4px;">
+                                <div class="has-text-left">
+                                    <p>Breakfast</p>
+                                    <p>Founders Hall 125/126</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">8:30 - 9:45</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Opening</p>
+                                    <p>Founders Hall 134</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Welcome to IEEE-ICICLE 2019</h3>
+                                    <p>The conference officially kicks-off with welcome remarks, introductions and our Keynote Speakers.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">9:45 - 10:15</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Interactive Exercise</p>
+                                    <p>Founders Hall 134</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Will the Real Learning Engineer Please Stand Up & What Type of Learning Engineer Are You? </h3>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">10:15 - 10:45</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Panel Discussion</p>
+                                    <p>Founders Hall 134</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Learning Engineering as a Team Sport</h3>
+                                    <p>We will examine the composition and dynamics of multidisciplinary teams doing learning engineering.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">11:00 - 11:45</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Cross-functional group 1</p>
+                                    <p>Founders Hall 120</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Working Session</h3>
+                                    <p>Discuss roles and competencies for the learning engineering team.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Cross-functional group 2</p>
+                                    <p>Founders Hall 121</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Working Session</h3>
+                                    <p>Discuss roles and competencies on the learning engineering team.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Cross-functional group 3</p>
+                                    <p>Founders Hall 113</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Working Session</h3>
+                                    <p>Discuss roles and competencies on the learning engineering team.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">11:45 - 1:15</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Lunch</p>
+                                    <p>Founders Hall 125/126</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Lunch discussions</h3>
+                                    <p>Report out by group facilitators.</p>
+                                    <p>What roles do competency definitions play in learning engineering?.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">1:30 - 3:00</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Policy, Acquisition, Management</p>
+                                    <p>Founders Hall</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">To be determined</h3>
+                                    <p>To be determined.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Science & Technology</p>
+                                    <p>Founders Hall</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Defining “Adaptive” Learning</h3>
+                                    <p>This session will discuss what it means for an instructional system to be adaptive.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Design & Development</p>
+                                    <p>Founders Hall</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Competencies for designer-type learning engineers <em>(1:30 - 2:00)</em></h3>
+                                    <p>What attitudes, dispositions, and capabilities do learning engineers who design learning experiences need to have?.</p>
+                                    <br>
+                                    <h3 class="has-text-weight-bold">Masters Curriculum for Learning Engineers <em>(2:00 - 3:00)</em></h3>
+                                    <p>How can we best educate the next generation of learning engineers?.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">3:00 - 3:30</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header" style="border-radius: 4px;">
+                                <div class="has-text-left">
+                                    <p>Networking Break</p>
+                                    <p>Founders Hall</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">3:30 - 4:30</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Policy, Acquisition, Management</p>
+                                    <p>Founders Hall</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Integrating Learning Engineering into Your Organization</h3>
+                                    <p>Hear from practitioners who have found ways to incorporate learning engineering in their organization's structure and workflow.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Science & Technology</p>
+                                    <p>Founders Hall</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">What is the role of the learner in an AI-augmented learning process?</h3>
+                                    <p>Where and how AI is integrated into learning environments challenges us to think differently about the learner's ownership of their learning.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-header">
+                                <div class="has-text-left">
+                                    <p>Design & Development</p>
+                                    <p>Founders Hall</p>
+                                </div>
+                                <button class="toggle" aria-label="toggle"></button>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-content has-text-left">
+                                    <h3 class="has-text-weight-bold">Bringing together learning and assessment</h3>
+                                    <p>How do/should people who learn and assess work together?</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">4:30 - 5:00</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header" style="border-radius: 4px;">
+                                <div class="has-text-left">
+                                    <p>Wrap-ups and discussion points - Thoughts for the next day</p>
+                                    <p>Founders Hall 134</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="subtitle is-margin-top-med">5:00 - 6:30</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header" style="border-radius: 4px;">
+                                <div class="has-text-left">
+                                    <p>Sponsored Reception</p>
+                                    <p>Arlington Economic Development Headquarters <em>(see maps)</em></p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 
+        ********************************************************************
+
+
+           WENESDAY AGENDA SECTION
+
+
+        ********************************************************************
+        -->
+        <section class="section is-display-none" data-section='wenesday'>
+            <div class="container">
+                <div class="notification has-text-centered" style="margin-bottom: 4rem;">
+                    <h1 class="title">Wenesday</h1>
+                    <h2 class="subtitle">What we know about learning and learning engineering as application of learning sciences.</h2>
+                    <div class="is-divider"></div>
+                    <h2 class="subtitle is-margin-top-med"">8:30 - 9:30</h2>
+                    <div class="accordions">
+                        <article class="accordion">
+                            <div class="accordion-header" style="border-radius: 4px;">
+                                <div class="has-text-left">
+                                    <p>Breakfast</p>
+                                    <p>Founders Hall 125/126</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 
+        ********************************************************************
+
+
+           THURSDAY AGENDA SECTION
+
+
+        ********************************************************************
+         -->
+        <section class="section is-display-none" data-section='thursday'>
+            <article class="message">
+                <div class="message-header">
+                    <p>Thursday's agenda is forthcoming...</p>
+                </div>
+                <div class="message-body">
+                    Please see Monday or Tuesday's agenda for a sample.
+                </div>
+            </article>
+        </section>
+        <!-- 
+        ********************************************************************
+
+            MAPS SECTIONS
+
+
+        ********************************************************************
+        -->
+        <section class="section is-display-none" data-section='founders-hall'>
+            <div class="container">
+                <img class="box" src="./media/map-founders-hall.jpg" alt="Founders Hall first floor map">
+            </div>
+        </section>
+        <section class="section is-display-none" data-section='hilton-area'>
+            <div class="container">
+                <img class="box" src="./media/map-hilton-area.jpg" alt="Hilton area map">
+            </div>
+        </section>
+        <!-- 
+        ********************************************************************
+
+            SPONSORS SECTION
+            ALWAYS SHOWS AT END OF EVERY PAGE
+
+        ********************************************************************
+        -->
+        <div class="is-divider" data-content="THANKS TO OUR AMAZING SPONSORS!"></div>
+        <section class="section">
+            <div class="level is-mobile">
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-96x96">
+                            <img src="./media/spondor-edsurge.png">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-64x64">
+                            <img src="./media/sponsor-act.jpg">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-64x64">
+                            <img src="./media/sponsor-aws.png">
+                        </p>
+                    </figure>
+                </div>
+            </div>
+            <div class="level is-mobile">
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-64x64">
+                            <img src="./media/sponsor-eduworks.png">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-96x96">
+                            <img src="./media/sponsor-elearning-guild.png">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-96x96">
+                            <img src="./media/sponsor-george-mason.png">
+                        </p>
+                    </figure>
+                </div>
+            </div>
+            <div class="level is-mobile">
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-64x64">
+                            <img src="./media/sponsor-hp.png">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-64x64">
+                            <img src="./media/sponsor-ieee.jpg">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-64x64">
+                            <img src="./media/sponsor-qip.png">
+                        </p>
+                    </figure>
+                </div>
+            </div>
+            <div class="level is-mobile">
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-128x128">
+                            <img src="./media/sponsor-squirrel.png">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-128x128">
+                            <img src="./media/sponsor-torrance.png">
+                        </p>
+                    </figure>
+                </div>
+            </div>
+            <div class="level is-mobile">
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-96x96">
+                            <img src="./media/sponsor-yet.PNG">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-96x96">
+                            <img src="./media/sponsor-zuckerberg-init.png">
+                        </p>
+                    </figure>
+                </div>
+                <div class="level-item">
+                    <figure>
+                        <p class="image is-96x96">
+                            <img src="./media/sponsor-age-of-learning.png">
+                        </p>
+                    </figure>
                 </div>
             </div>
         </section>
 
-        <section class="accordions">
-            <article class="accordion">
-                <div class="accordion-header">
-                    <p>Hello World</p>
-                    <button class="toggle" aria-label="toggle"></button>
-                </div>
-                <div class="accordion-body">
-                    <div class="accordion-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-                    </div>
-                </div>
-            </article>
-            <article class="accordion">
-                <div class="accordion-header">
-                    <p>Hello World</p>
-                    <button class="toggle" aria-label="toggle"></button>
-                </div>
-                <div class="accordion-body">
-                    <div class="accordion-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-                    </div>
-                </div>
-            </article>
-            <article class="accordion">
-                <div class="accordion-header">
-                    <p>Hello World</p>
-                    <button class="toggle" aria-label="toggle"></button>
-                </div>
-                <div class="accordion-body">
-                    <div class="accordion-content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="section" id="policy">
-            <h2 class="title is-2">
-                Assistance
-            </h2>
-            <p>
-                Here are some useful contacts:
-            </p>
-            <br>
-            <ul>
-                <li>1. <strong>Contact Name:</strong> 919-234-1234</li>
-                <li>2. <strong>Contact Name:</strong> 919-234-1234</li>
-                <li>3. <strong>Contact Name:</strong> 919-234-1234</li>
-            </ul>
-            <br>
-            <h2 class="title is-2">
-                Lost and Found
-            </h2>
-            <p class="is-size-5">
-                Have you lost something? Head over to the lost and found at the front desk to see if your missing item has turned up there.
-            </p>
-            <br>
-            <h2 class="title is-2">
-                Keep networking after the conference
-            </h2>
-            <p class="is-size-5">
-                Check out the Hotel resturant after the conference to continue the conversation and networking!
-            </p>
-        
-        </section>
-
-        <!-- <script src="/scripts/vue.js"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-        <script src="/scripts/bulma-accordion.js"></script>
-        <script src="/scripts/main.js"></script>
+        <script type="text/javascript" src="./scripts/bulma-accordion.min.js"></script>
+        <script type="text/javascript" src="./scripts/main.js"></script>
     </body>
 </html>    

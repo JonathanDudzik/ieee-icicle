@@ -6,17 +6,26 @@
 // Setting NCDHHS color scheme
 $white: #fff;
 $black: #000;
-$primary: #8ead67;
+$primary: #586e40;
 $light-black: hsl(0, 0%, 15%);
 $dark-blue: #092940;
 $light-blue: #397aac;
 $dark-grey: #5f6c7b;
 $light-grey: #ecf0f3;
 
+// My utility styles
+.is-margin-top-med {
+    margin-top: 1.5rem;
+} 
+
+.is-display-none {
+    display: none
+}
+
 // Bulma font-faily variable
 $family-sans-serif: 'Raleway', sans-serif;
 
-// Bulma navbar variables
+// Bulma navbar styles
 $navbar-item-img-max-height: 6rem;
 $navbar-background-color: $white;
 $navbar-item-color: $primary;
@@ -26,8 +35,17 @@ $navbar-dropdown-item-hover-color: $black;
 $navbar-dropdown-item-hover-background-color: $light-grey;
 $navbar-dropdown-arrow: $primary;
 
+// Accordion styles
+$accordion-header-background-color: $dark-grey;
+.accordion-body {
+    background-color: $white;
+}
+
+// Divider styles
+$divider-font-size: 1rem;
+
+// Hero styles
 .hero {
-    // background-image: url("../media/image-hero.jpeg");
     background-image: linear-gradient(
         to bottom,
         rgba($black, 0.6),
@@ -48,4 +66,5 @@ $navbar-dropdown-arrow: $primary;
 @import "../node_modules/bulma/sass/grid/_all.sass";
 
 // Import Extensions
-@import "../node_modules/bulma/sass/extensions/_all.sass"
+@import "../node_modules/bulma-accordion/dist/css/bulma-accordion.sass";
+@import "../node_modules/bulma-divider/dist/css/bulma-divider.sass";
