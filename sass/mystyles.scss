@@ -35,12 +35,6 @@ $navbar-dropdown-item-hover-color: $black;
 $navbar-dropdown-item-hover-background-color: $light-grey;
 $navbar-dropdown-arrow: $primary;
 
-// Accordion styles
-$accordion-header-background-color: $dark-grey;
-.accordion-body {
-    background-color: $white;
-}
-
 // Divider styles
 $divider-font-size: 1rem;
 
@@ -68,3 +62,20 @@ $divider-font-size: 1rem;
 // Import Extensions
 @import "../node_modules/bulma-accordion/dist/css/bulma-accordion.sass";
 @import "../node_modules/bulma-divider/dist/css/bulma-divider.sass";
+
+// Accordion styles
+$accordion-header-background-color: $dark-grey;
+.accordion-body {
+    background-color: $white;
+}
+
+
+.accordions {
+	.accordion {
+		&.is-active {
+			.accordion-body {
+				max-height: 200em;
+			}
+		}
+	}
+}
