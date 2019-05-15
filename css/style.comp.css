@@ -5,9 +5,6 @@
 .is-display-none {
   display: none; }
 
-.accordion-body {
-  background-color: #fff; }
-
 .hero {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(95, 108, 123, 0.6), rgba(95, 108, 123, 0.8)), url("../media/image-hero.jpeg");
   background-size: cover;
@@ -6971,7 +6968,7 @@ label.panel-block {
     cursor: pointer; }
   .accordions .accordion .accordion-header {
     align-items: center;
-    background-color: #5f6c7b;
+    background-color: #4a4a4a;
     border-radius: 4px 4px 0 0;
     color: #fff;
     display: flex;
@@ -7397,3 +7394,9 @@ label.panel-block {
   .is-divider.is-white-bis::before,
   .is-divider-vertical.is-white-bis::before {
     border-left-color: #fafafa; }
+
+.accordion-body {
+  background-color: #fff; }
+
+.accordions .accordion.is-active .accordion-body {
+  max-height: 200em; }
